@@ -9,5 +9,29 @@ package com.mycompany.projetolp3cassiopedro;
  * @author cassio
  */
 public class Usuario {
+    private String nome, cpf, email;
     
+    //realizar cadastro ou login
+    //realizar continuar como visitante
+    public String cadastro(String email){
+        /*
+        verifica se email ja esta cadastrado
+        caso sim: reporta mensagem com erro
+        caso nao: chama classe Cadastro e seu metodo novoCadastro(email)
+        */
+        
+        return ;
+    }
+    public String login(String email, String senha){
+        /*
+        verificar se usuario consta no banco de dados.
+        verificar senha correta 
+        se estiver: recuperar estado do usuario, da valor true a Cadastro
+        se nao: mensagem de erro no login ou senha
+        */
+        return ;
+    }
+    public void deslogar(){
+        //desloga o usuario 
+    }
 }

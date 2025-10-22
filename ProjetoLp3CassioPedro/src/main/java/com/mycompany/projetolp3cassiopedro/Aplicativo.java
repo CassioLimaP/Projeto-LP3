@@ -8,9 +8,16 @@ package com.mycompany.projetolp3cassiopedro;
  *
  * @author cassio
  */
-public class ProjetoLp3CassioPedro {
+public class Aplicativo {
 
     public static void main(String[] args) {
+        /*
+        importa parte visual
+        liga banco de dados
+        
+        */
         System.out.println("Hello World!");
+        
     }
+    
 }
