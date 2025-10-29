@@ -1,4 +1,4 @@
-package com.mycompany.projetolp3cassiopedro;
+package controle;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
