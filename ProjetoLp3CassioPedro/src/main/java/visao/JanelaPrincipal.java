@@ -37,7 +37,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("VENDA DE PASSAGENS - inicio");
-        setPreferredSize(new java.awt.Dimension(1200, 700));
         setResizable(false);
 
         javax.swing.GroupLayout jdpDesktopLayout = new javax.swing.GroupLayout(jdpDesktop);
@@ -68,17 +67,17 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jdpDesktop, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jdpDesktop, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         pack();
@@ -87,8 +86,13 @@ public class JanelaPrincipal extends javax.swing.JFrame {
 
     private void jmbLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jmbLoginMouseClicked
         // TODO add your handling code here:
-        TelaLoginDialog dialogLogin = new TelaLoginDialog(JanelaPrincipal.this, true);
-        dialogLogin.setVisible(true);
+        /*
+          verificar se ususario esta logado
+        */
+        //if(tempLogin==false){
+            TelaLoginDialog dialogLogin = new TelaLoginDialog(JanelaPrincipal.this, true);
+            dialogLogin.setVisible(true);
+        //}
     }//GEN-LAST:event_jmbLoginMouseClicked
 
     /**

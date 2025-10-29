@@ -148,6 +148,7 @@ public class TelaLoginDialog extends javax.swing.JDialog {
 
     private void jbnCadastreseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbnCadastreseActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_jbnCadastreseActionPerformed
 
     private void jtfCampoUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfCampoUsuarioActionPerformed
