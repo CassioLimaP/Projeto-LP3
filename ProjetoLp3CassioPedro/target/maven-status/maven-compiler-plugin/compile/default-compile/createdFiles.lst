@@ -12,9 +12,11 @@ controle/JanelaLogin.class
 controle/JanelaCadastro.class
 visao/TelaLoginDialog$2.class
 controle/Aplicativo.class
+visao/ProdutosViagens$1.class
 controle/JanelaCadastro$1.class
 visao/TelaLoginDialog$3.class
 controle/Reserva.class
+visao/ProdutosViagens.class
 visao/TelaLoginDialog$4.class
 controle/Usuario.class
 controle/Cadastro.class
